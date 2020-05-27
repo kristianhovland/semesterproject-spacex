@@ -486,13 +486,18 @@ i:hover {
   .nav-bar {
     background-color: none;
     position: absolute;
+    max-width: 414px;
+  }
+
+  body {
+    max-width: 414px;
   }
 
   .menu {
     line-height: 15px;
     margin: 0px;
     background-color: none;
-    width: 375px;
+    width: 414px;
   }
 
   .wrapper {
@@ -519,6 +524,12 @@ i:hover {
 
   .menu ul li a {
     font-size: 14px;
+    padding: 5px;
+    background-color: none;
+  }
+
+  .menu ul li {
+    margin-left: 15px;
     padding: 5px;
     background-color: none;
   }
@@ -651,12 +662,12 @@ i:hover {
 
   .about-wrapper {
     height: 74%;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   .about-slide1 {
     height: 55%;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   .about-slide1 h1 {
@@ -665,7 +676,7 @@ i:hover {
     text-align: left;
     margin-top: 410px;
     margin-left: 50px;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   .about-slide1 p {
@@ -681,7 +692,7 @@ i:hover {
 
   .about-slide2 {
     height: 100vh;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   .about-slide2 h3 {
@@ -699,7 +710,7 @@ i:hover {
   .about-slide3 {
     height: 100vh;
     display: flex;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   .about-slide3 h4 {
@@ -709,7 +720,7 @@ i:hover {
     width: 55px;
     margin-right: 1450px;
     margin-bottom: 350px;
-    max-width: 375px;
+    max-width: 414px;
   }
 
   #contactForm {
