@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space X | Contact</title>
+    <meta name="title" content="Space X | Contact">
+    <meta name="description" content="SpaceX's Microsite for launch information, dates and times, general information and images. Contact page is for you to contact us with a query or problem.">
+    <link rel="stylesheet" href="style.css"/>
+    <script
+    src="https://kit.fontawesome.com/6016bc1f69.js"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="icon" href="img/space_x_logo.jpg" alt="Image of the SpaceX logo.">
+  </head>
+  <body>
+    <div class="contact-wrapper">
+      <div class="nav-bar">
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="navbar-logo" href="index.html"
+                ><img src="img/spacexlogo.png" alt="SpaceX Official Logo"
+              /></a>
+            </li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="launch.html">LAUNCHES</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="submitMessage">
+      Your form was submitted.
+    </div>
+
+    <form id="contactForm">
+      <h1>Do you have a question for us?</h1>
+      <p>
+        Please provide the neccessary details below, and we will get back to you
+        within 12-48 hours.
+      </p>
+      <div>
+        <input id="firstName" placeholder="First name *" />
+        <div class="error" id="firstNameError">
+          Please enter your first name
+        </div>
+      </div>
+
+      <div>
+        <input id="lastName" placeholder="Last name*" />
+        <div class="error" id="lastNameError">
+          Your last name must have at least 3 characters
+        </div>
+      </div>
+
+      <div>
+        <input id="email" placeholder="Email *" />
+        <div class="error" id="emailError">
+          Please enter a valid email address
+        </div>
+      </div>
+
+      <div>
+        <textarea id="message"></textarea>
+        <div class="error" id="messageError">
+          Your message must have at least 6 characters
+        </div>
+      </div>
+      <div class="btn-contact">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <footer>
+      <div class="row1footer">
+        <ul>
+          <li><a href="Spacex.com">Official SpaceX</a></li>
+          <li><a href="Spacex.com/vehicles/dragon/">Dragon</a></li>
+          <li><a href="Spacex.com/vehicles/starship/">Starship</a></li>
+          <li><a href="Spacex.com/vehicles/falcon-9/">Falcon 9</a></li>
+        </ul>
+      </div>
+      <div class="socials">
+        <a href="https://twitter.com/spacex"><i class="fab fa-twitter-square"></a></i>
+        <a href="https://www.linkedin.com/company/spacex/">
+        <i class="fab fa-linkedin"></a></i>
+        <a href="https://www.instagram.com/spacex/"><i class="fab fa-instagram-square"></a></i>
+        <a href="https://www.youtube.com/spacex"><i class="fab fa-youtube-square"></a></i>
+        <a href="https://www.flickr.com/photos/spacex"><i class="fab fa-flickr"></i></a></i>
+        
+      </div>
+      <h4>&copy; 2020 Semester Project - Kristian Hovland</h4>
+      <p>SpaceX Microsite - Noroff</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
